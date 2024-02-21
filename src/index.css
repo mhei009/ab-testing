@@ -12,17 +12,36 @@ code {
     monospace;
 }
 
-/* Default styles for form_container */
 .form_container {
-  /* Add default styles here */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-/* Styles for Variation A */
 .form_container.variation_A {
   background-color: bisque;
 }
 
-/* Styles for Variation B */
 .form_container.variation_B {
-  background-color: aquamarine;
+  background-color: rgba(255, 147, 16, 0.373);
+  border: solid 2px black;
+  padding: 2rem;
+  width: 50rem;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.static-section {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+
+.cta-section {
 }
